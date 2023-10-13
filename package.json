@@ -1,0 +1,18 @@
+{
+  "name": "breathing-exercise",
+  "version": "1.0.0",
+  "description": "A 5-minute breathing exercise with voice-over",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "play-sound": "^1.1.6",
+    "say": "^0.16.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
